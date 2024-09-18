@@ -15,16 +15,12 @@ export default [
             "react-refresh": reactRefresh
         },
         rules: {
-            "react-refresh/only-export-components": [
-                "warn",
-                { allowConstantExport: true }
-            ]
+            "react-refresh/only-export-components": "warn"
         }
     },
     {
         rules: {
-            "@typescript-eslint/no-redeclare": "off",
-            "no-labels": "off"
+            "react/react-in-jsx-scope": "off"
         }
     },
     {
